@@ -30,7 +30,7 @@ namespace GameUnit
 
         public override string ToString()
         {
-            return $"SettlerUnit: HP={Health} COST={Cost:f2} XP={XP} ";
+            return $"SettlerUnit: HP={Health} COST={Cost:f2} AP={AttackPower} XP={XP} ";
         }
     }
 }

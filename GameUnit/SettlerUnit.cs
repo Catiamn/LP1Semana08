@@ -7,8 +7,9 @@ namespace GameUnit
 {
     public class SettlerUnit : Unit
     {
+        //override do cost para 5
         public override float Cost => 5;
-        public SettlerUnit() : base (5, 1)
+        public SettlerUnit() : base (1, 3)
         {
             
         }
